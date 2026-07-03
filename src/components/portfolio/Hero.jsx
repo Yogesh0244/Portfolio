@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { GitBranch, ExternalLink, Mail, Download, ArrowRight } from "lucide-react";
 
-const sachinImg = "/Sachin.jpeg";
+const yogeshImg = "/YogeshImage.png";
 
-const roles = ["Full-Stack Developer", "MERN Stack Developer", "Software Developer"];
+const roles = ["Java Backend Developer", "Software Engineer"];
 
 function useTypewriter() {
   const [text, setText] = useState("");
@@ -41,13 +41,13 @@ export default function Hero() {
                 <span className="w-2 h-2 rounded-full bg-primary animate-pulse" /> Available for opportunities
               </span>
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-                Hi, I'm <span className="text-gradient">Sachin H K</span>
+                Hi, I'm <span className="text-gradient">Yogesh M T</span>
               </h1>
               <div className="h-8 md:h-10 text-xl md:text-2xl text-muted-foreground font-display">
                 <span className="cursor-blink">{typed}</span>
               </div>
               <p className="text-muted-foreground max-w-xl leading-relaxed">
-                Full-stack developer crafting modern web experiences with clean code and real-world impact. From responsive UIs to robust APIs — I build end-to-end solutions that perform.
+              Java backend developer building scalable, database-driven applications with clean, efficient code. From REST APIs to microservices — I create reliable systems that solve real-world problems.
               </p>
               <div className="flex flex-wrap gap-3">
                 <button
@@ -57,8 +57,8 @@ export default function Hero() {
                   View Projects <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                 </button>
                 <a
-                  href="/Sachin_HK_Resume.pdf"
-                  download="Sachin_HK_Resume.pdf"
+                  href="/Yogesh_Resume.pdf"
+                  download="Yogesh_Resume.pdf"
                   className="inline-flex items-center gap-2 px-5 py-3 rounded-xl glass dark:text-foreground light:text-foreground font-medium card-hover"
                 >
                   <Download size={16} /> Download Resume
@@ -66,9 +66,9 @@ export default function Hero() {
               </div>
               <div className="flex gap-3 pt-2">
                 {[
-                  { Icon: GitBranch, href: "https://github.com/sachin2k23", label: "GitHub" },
-                  { Icon: ExternalLink, href: "https://linkedin.com/in/sachin-hk", label: "LinkedIn" },
-                  { Icon: Mail, href: "mailto:hksachin08@gmail.com", label: "Email" },
+                  { Icon: GitBranch, href: "https://github.com/Yogesh0244", label: "GitHub" },
+                  { Icon: ExternalLink, href: "https://linkedin.com/in/yogeshmt", label: "LinkedIn" },
+                  { Icon: Mail, href: "mailto:yogeshmt02@gmail.com", label: "Email" },
                 ].map(({ Icon, href, label }) => (
                   <a
                     key={label}
@@ -90,8 +90,8 @@ export default function Hero() {
                 <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-full p-1 bg-gradient-primary transition-transform duration-300 hover:scale-105">
                   <div className="w-full h-full rounded-full bg-card flex items-center justify-center overflow-hidden">
                     <img
-                      src={sachinImg}
-                      alt="Sachin H K"
+                      src={yogeshImg}
+                      alt="Yogesh M T"
                       className="w-full h-full object-cover rounded-full"
                     />
                   </div>

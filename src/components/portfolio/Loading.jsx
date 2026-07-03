@@ -32,7 +32,7 @@ export default function Loading({ onDone }) {
       </div>
       <div className="relative text-center px-6">
         <h1 className="text-3xl md:text-5xl font-bold text-gradient animate-fade-up">
-          Hello 👋 Welcome to Sachin's Portfolio
+          Hello 👋 Welcome to Yogesh's Portfolio
         </h1>
         <div className="mt-8 mx-auto h-1 w-48 overflow-hidden rounded-full bg-white/10">
           <div className="h-full w-1/3 bg-gradient-primary animate-[fade-in_0.3s_ease,float_2s_ease-in-out_infinite]" />

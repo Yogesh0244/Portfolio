@@ -1,19 +1,43 @@
-import { Code2, Library, Database, Wrench, GitBranch, Sparkles } from "lucide-react";
+import { Code2, Library, Layout, Database, Cloud, Wrench } from "lucide-react";
 import { useReveal } from "./useReveal";
 
 const skillCards = [
-  { Icon: Code2, title: "Programming Languages", items: ["JavaScript (ES6+)", "Python", "HTML5", "CSS3", "Java"] },
-  { Icon: Library, title: "Frameworks & Libraries", items: ["React.js", "Node.js", "Express.js", "TailwindCSS", "Bootstrap", "Flask"] },
-  { Icon: Database, title: "Databases", items: ["MongoDB", "MySQL", "SQLite"] },
-  { Icon: Wrench, title: "Tools & Technologies", items: ["Git", "GitHub", "Postman", "VS Code", "Docker", "Figma"] },
-  { Icon: GitBranch, title: "Development Practices", items: ["REST APIs", "JWT Auth", "Agile/Scrum", "CRUD", "Version Control"] },
-  { Icon: Sparkles, title: "Soft Skills", items: ["Problem Solving", "Team Collaboration", "Communication", "Fast Learner"] },
+  {
+    Icon: Code2,
+    title: "Programming Languages",
+    items: ["Java", "Core Java", "OOPs Concepts", "Collections Framework", "Exception Handling", "Multithreading"],
+  },
+  {
+    Icon: Library,
+    title: "Backend Technologies",
+    items: ["Spring Boot", "Spring MVC", "Spring Data JPA", "JDBC", "Hibernate", "REST APIs", "Microservices Architecture"],
+  },
+  {
+    Icon: Layout,
+    title: "Frontend Technologies",
+    items: ["HTML5", "CSS3", "JavaScript (ES6+)", "DOM Manipulation", "Responsive Web Design"],
+  },
+  {
+    Icon: Database,
+    title: "Database",
+    items: ["MySQL", "Oracle SQL", "SQL Queries", "Subqueries", "Joins", "CRUD Operations"],
+  },
+  {
+    Icon: Cloud,
+    title: "DevOps & Cloud",
+    items: ["Docker", "Kubernetes", "AWS Cloud Fundamentals", "CI/CD Pipelines", "GitHub Actions"],
+  },
+  {
+    Icon: Wrench,
+    title: "Concepts & Tools",
+    items: ["Maven", "SDLC", "Agile", "Scrum", "Git", "GitHub", "Postman", "VS Code", "Eclipse", "Software Testing"],
+  },
 ];
 
 const specializations = [
-  "Data Structures & Algorithms", "Frontend Development", "Backend Development",
-  "API Integration", "Performance Optimization", "UI/UX Design",
-  "Responsive Design", "Full-Stack Applications",
+  "Backend Development", "REST API Development", "Database Management",
+  "Spring Boot Applications", "Microservices Architecture", "Scalable System Design",
+  "Full-Stack Java Development", "Agile & Scrum Practices", "API Integration", "Performance Optimization",
 ];
 
 export default function Skills() {

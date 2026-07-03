@@ -3,9 +3,9 @@ import { Mail, ExternalLink, GitBranch, Send } from "lucide-react";
 import { useReveal } from "./useReveal";
 
 const cards = [
-  { Icon: Mail, label: "Email", value: "hksachin08@gmail.com", href: "mailto:hksachin08@gmail.com" },
-  { Icon: ExternalLink, label: "LinkedIn", value: "linkedin.com/in/sachin-hk", href: "https://linkedin.com/in/sachin-hk" },
-  { Icon: GitBranch, label: "GitHub", value: "github.com/sachin2k23", href: "https://github.com/sachin2k23" },
+  { Icon: Mail, label: "Email", value: "yogeshmt02@gmail.com", href: "mailto:yogeshmt02@gmail.com" },
+  { Icon: ExternalLink, label: "LinkedIn", value: "linkedin.com/in/yogesmt", href: "https://linkedin.com/in/yogeshmt" },
+  { Icon: GitBranch, label: "GitHub", value: "github.com/Yogesh0244", href: "https://github.com/Yogesh0244" },
 ];
 
 export default function Contact() {

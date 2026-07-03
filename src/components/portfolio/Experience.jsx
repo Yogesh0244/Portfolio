@@ -2,28 +2,16 @@ import { useReveal } from "./useReveal";
 
 const experiences = [
   {
-    title: "Front-End Web Developer Intern",
-    company: "Akashaveda Technologies Pvt. Ltd.",
-    duration: "Jan 2026 – Present",
-    current: true,
-    points: [
-      "Developed responsive web pages and reusable UI components using React.js, HTML5, CSS3, and JavaScript",
-      "Improved page responsiveness by 20% through component optimization and efficient rendering strategies",
-      "Integrated RESTful APIs, reducing UI load times and improving data-fetch reliability",
-      "Refactored component architecture and state management, reducing redundant renders",
-      "Collaborated in Agile/Scrum workflows using Git and GitHub for feature delivery",
-    ],
-  },
-  {
     title: "Full Stack Web Development Intern",
-    company: "Techno Tut Solutions",
-    duration: "Jan 2025 – Mar 2025",
+    company: "Aiva Solution Integrations",
+    duration: "Nov 2024 – Jan 2025",
     current: false,
     points: [
-      "Developed and deployed full-stack features using React.js and Node.js for production web applications",
-      "Designed SQL-backed APIs and optimised data flow, contributing to 20% improvement in page load time",
-      "Improved frontend responsiveness by optimizing component rendering and reducing unnecessary API calls",
-      "Collaborated with the development team using Git/GitHub and Agile sprints to deliver features on schedule",
+      "Developed web applications using Java, HTML, CSS, and JavaScript",
+      "Implemented database operations using Oracle SQL and JDBC",
+      "Assisted in building backend logic and integrating frontend with backend",
+      "Collaborated with team members to debug and optimize application performance",
+      "Gained practical experience in real-world web application development lifecycle",
     ],
   },
 ];
@@ -32,14 +20,14 @@ const educations = [
   {
     degree: "Master of Computer Applications (MCA)",
     school: "ATME College of Engineering, Mysuru",
-    duration: "Feb 2024 – Nov 2025",
-    gpa: "9.0 / 10",
+    duration: "Feb 2024 – Dec 2025",
+    gpa: "8.76 / 10",
   },
   {
     degree: "Bachelor of Computer Applications (BCA)",
-    school: "Vidya Vikas First Grade College, Mysuru",
-    duration: "Aug 2020 – Jul 2023",
-    gpa: "7.4 / 10",
+    school: "Vidyavahini First Grade College, Tumakuru",
+    duration: "Oct 2020 – Sep 2023",
+    gpa: "7.67 / 10",
   },
 ];
 

@@ -9,7 +9,7 @@ export default function About() {
       <div className="mx-auto max-w-6xl">
         <div className="reveal text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-bold">About <span className="text-gradient">Me</span></h2>
-          <p className="text-muted-foreground mt-3">A glimpse into who I am and what I do.</p>
+          <p className="text-muted-foreground mt-3">A glimpse into who I am and what I do</p>
         </div>
         <div className="grid md:grid-cols-2 gap-6">
           <article className="reveal glass rounded-2xl p-6 md:p-8 card-hover">
@@ -18,13 +18,7 @@ export default function About() {
               My Journey
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Passionate and detail-oriented full-stack developer with hands-on experience building dynamic
-              and scalable web applications through internships and academic projects. I specialize in the
-              MERN stack — React, Node.js, Express, and MongoDB — along with modern styling using
-              TailwindCSS. My expertise spans frontend development, RESTful API integration, performance
-              optimization, and responsive UI design. I'm a fast learner driven by solving real-world
-              problems through clean, maintainable code.
-            </p>
+             Hi, I'm Yogesh M T — A Java Backend Developer and MCA graduate passionate about building scalable, real-world web applications. I specialize in Java, Spring Boot, REST APIs, and database-driven systems, with hands-on experience across the full development lifecycle from backend logic to frontend integration. During my internship at Aiva Solution Integrations, I worked on real-time web applications using Java, JDBC, and Oracle SQL, sharpening my skills in debugging and performance optimization. I've also built projects like Smart Shield, an ML-powered phishing detection system, and a full-stack Banquet Hall Booking platform — reflecting my drive to solve practical problems with clean, efficient code. I'm now looking to bring this energy into an entry-level Java Developer role where I can keep learning and contribute to high-quality software.</p>
           </article>
           <article className="reveal glass rounded-2xl p-6 md:p-8 card-hover">
             <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
@@ -33,8 +27,8 @@ export default function About() {
             </h3>
             <ul className="space-y-4">
               {[
-                { Icon: Briefcase, label: "Role", value: "Front-End Developer at HourlyRecruit Tech Labs" },
-                { Icon: GraduationCap, label: "Education", value: "MCA — ATME College of Engineering, Mysuru" },
+                { Icon: Briefcase, label: "Role", value: "Java Backend Developer - Open to Opportunities" },
+                { Icon: GraduationCap, label: "Education", value: "MCA - ATME College of Engineering, Mysuru" },
                 { Icon: Languages, label: "Languages", value: "English (Proficient), Kannada (Native)" },
               ].map(({ Icon, label, value }) => (
                 <li key={label} className="flex gap-3">

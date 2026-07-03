@@ -49,7 +49,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-6xl px-4">
         <nav className="glass-strong rounded-2xl px-4 md:px-6 py-3 flex items-center justify-between">
           <button onClick={() => go("home")} className="font-display text-lg font-bold text-gradient">
-            Sachin H K
+            Yogesh M T
           </button>
           <ul className="hidden md:flex items-center gap-1">
             {links.map((l) => (

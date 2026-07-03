@@ -3,19 +3,20 @@ import { useReveal } from "./useReveal";
 
 const projects = [
   {
-    name: "Finance Business Tracker",
-    desc: "A full-stack MERN finance tracking app to manage income, expenses, and category-based transactions with real-time dashboards and secure JWT authentication.",
-    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "REST APIs"],
-    demo: "https://ai-finance-tracker-khaki.vercel.app/",
-    github: "https://github.com/sachin2k23/AI-finance-tracker",
-    highlights: ["JWT Auth", "Real-time Charts", "Responsive", "CRUD"],
+    name: "Smart Shield – ML Based Defence Against Malicious URLs",
+    desc: "A real-time phishing detection system using an XGBoost machine learning model, with URL feature extraction, SSL verification, and domain reputation analysis to enhance cybersecurity awareness.",
+    tech: ["Python", "XGBoost", "Flask", "HTML5", "CSS3", "JavaScript"],
+    demo: "",
+    github: "",
+    highlights: ["Machine Learning", "Phishing Detection", "SSL Verification", "Domain Analysis"],
   },
   {
-    name: "Best Team Prediction for Indian Cricket Team",
-    desc: "A machine learning-based prediction system to evaluate and select optimal cricket team compositions using batting and bowling datasets (ODI, T20, Test).",
-    tech: ["Python", "Scikit-learn", "Pandas", "Matplotlib", "Flask", "Joblib"],
-    github: "https://github.com/sachin2k23/Best-Cricket-Team-Prediction",
-    highlights: ["Machine Learning", "Data Analysis", "Flask", "Predictive Model"],
+    name: "Online Banquet Hall Booking System",
+    desc: "A Java-based web application for booking and managing banquet services, with backend logic built using JDBC and Oracle SQL, and a responsive UI for efficient CRUD-based booking management.",
+    tech: ["Java", "JDBC", "Oracle SQL", "HTML5", "CSS3", "JavaScript"],
+    demo: "",
+    github: "",
+    highlights: ["CRUD Operations", "Responsive UI", "Backend Logic", "Booking Management"],
   },
 ];
 
@@ -55,9 +56,11 @@ export default function Projects() {
                     <ExternalLink size={14} /> Live Demo
                   </a>
                 )}
-                <a href={p.github} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-4 py-2 rounded-lg glass text-sm card-hover">
-                  <GitBranch size={14} /> GitHub
-                </a>
+                {p.github && (
+                  <a href={p.github} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-4 py-2 rounded-lg glass text-sm card-hover">
+                    <GitBranch size={14} /> GitHub
+                  </a>
+                )}
               </div>
             </article>
           ))}
