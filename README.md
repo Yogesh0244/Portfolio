@@ -1,4 +1,4 @@
-Personal Portfolio Website
+Personal Portfolio Website:
 A modern, responsive, and visually appealing personal portfolio website built using **React**, **Vite**, and **Tailwind CSS**. This portfolio showcases personal information, technical skills, projects, and contact details with a clean and interactive user interface.
 
 🚀 Features
