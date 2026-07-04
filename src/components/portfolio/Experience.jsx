@@ -2,6 +2,19 @@ import { useReveal } from "./useReveal";
 
 const experiences = [
   {
+    title: "Java Full Stack Development Intern",
+    company: "JSpiders",
+    duration: "Jan 2026 – Present",
+    current: true,
+    points: [
+      "Building full-stack applications using Core Java, Spring Boot, Hibernate, and REST APIs across a structured, project-based curriculum",
+      "Developing MVC-architected web apps with HTML5, CSS3, and JavaScript, focused on reusable, component-based UI design",
+      "Designing normalized MySQL schemas and writing optimized SQL queries to support full CRUD workflows",
+      "Integrating Spring Boot backends with React.js frontends, persisting data through Hibernate ORM",
+      "Practicing Git-based version control and participating in peer code reviews for collaborative development",
+    ],
+  },
+  {
     title: "Full Stack Web Development Intern",
     company: "Aiva Solution Integrations",
     duration: "Nov 2024 – Jan 2025",

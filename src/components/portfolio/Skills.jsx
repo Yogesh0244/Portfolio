@@ -5,7 +5,7 @@ const skillCards = [
   {
     Icon: Code2,
     title: "Programming Languages",
-    items: ["Java", "Core Java", "OOPs Concepts", "Collections Framework", "Exception Handling", "Multithreading"],
+    items: ["Java", "OOPs Concepts", "Collections Framework", "Exception Handling", "Multithreading", "File Handling", "Memory Management"],
   },
   {
     Icon: Library,
